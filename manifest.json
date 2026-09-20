@@ -1,0 +1,34 @@
+{
+  "name": "FinanceHub - Dashboard Keuangan Premium",
+  "short_name": "FinanceHub",
+  "description": "Aplikasi dashboard keuangan pribadi yang aman dan privat",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "lang": "id-ID",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Tambah Transaksi",
+      "short_name": "Transaksi",
+      "description": "Catat transaksi baru",
+      "url": "/index.html?action=add"
+    },
+    {
+      "name": "Lihat Dashboard",
+      "short_name": "Dashboard",
+      "url": "/index.html"
+    }
+  ]
+}
